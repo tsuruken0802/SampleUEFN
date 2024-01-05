@@ -1,0 +1,43 @@
+{
+	"fileVersion": 14,
+	"versionSuffix": "",
+	"title": "MyProject1",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"kind": "Island",
+	"templateCategory": "UserGenerated",
+	"compatibilityVersion": "28.01",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"plugins": [
+		{
+			"name": "MyProject1",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "70c7751d-4370-ad73-2630-6b9194cd638c",
+		"projectVersePath": "",
+		"modules":
+		{
+			"MyProject1": "e8689553-4b1a-9ee5-a550-cc87474320b8"
+		}
+	}
+}
