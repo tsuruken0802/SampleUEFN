@@ -24,7 +24,6 @@ move_platform := class(creative_device):
             MovePlatform()
 
     MovePlatform()<suspends>:void=
-        Print("hello")
         var StartPosition : vector3 = MyCreativeProp.GetTransform().Translation
         var EndPosition : vector3 = vector3{X:=StartPosition.X, Y:=StartPosition.Y, Z:=1000.0}
 
@@ -35,6 +34,3 @@ move_platform := class(creative_device):
                 MyCreativeProp.MoveTo(vector3{X:=CurrentPosition.X, Y:=CurrentPosition.Y, Z:=NewPosition}, MyCreativeProp.GetTransform().Rotation, 0.3)
             else:
                 break:
-
-        
-        
